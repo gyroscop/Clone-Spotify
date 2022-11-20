@@ -22,13 +22,67 @@
 
         <div class="songlist">
             <h1>Best of NCS - No Copyright Sounds</h1>
-            <div>
+            <div class="songItemCotainer">
                 <div class="songItem">
-                    <img src="../covers/1.jpg" alt="Let_me_love_you">
-                    <span>Let Me Love You</span>
-                    <span class="songListPlay"><span class="timestamp">5:34 <i class="fa-solid fa-circle-play"></i></span></span>
+                    <img src="../covers/1.jpg" alt="Cover_Image">
+                    <span class="songName" >Song Name</span>
+                    <span class="songListPlay"><span class="timestamp">5:34 <i id="0" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                
+                <div class="songItem">
+                    <img src="../covers/1.jpg" alt="Cover_Image">
+                    <span class="songName" >Song Name</span>
+                    <span class="songListPlay"><span class="timestamp">5:34 <i id="1" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
                 </div>
 
+                <div class="songItem">
+                    <img src="../covers/1.jpg" alt="Cover_Image">
+                    <span class="songName" >Song Name</span>
+                    <span class="songListPlay"><span class="timestamp">5:34 <i id="2" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+
+                <div class="songItem">
+                    <img  src="../covers/1.jpg" alt="Cover_Image">
+                    <span class="songName" >Song Name</span>
+                    <span class="songListPlay"><span class="timestamp">5:34 <i id="3" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+
+                <div class="songItem">
+                    <img src="../covers/1.jpg"  alt="Cover_Image">
+                    <span class="songName" >Song Name</span>
+                    <span class="songListPlay"><span class="timestamp">5:34 <i id="4" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+
+                <div class="songItem">
+                    <img src="../covers/1.jpg" alt="Cover_Image">
+                    <span class="songName" >Song Name</span>
+                    <span class="songListPlay"><span class="timestamp">5:34 <i id="5" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+
+                <div class="songItem">
+                    <img src="../covers/1.jpg"  alt="Cover_Image">
+                    <span class="songName" >Song Name</span>
+                    <span class="songListPlay"><span class="timestamp">5:34 <i id="6" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+
+                <div class="songItem">
+                    <img src="../covers/1.jpg" alt="Cover_Image">
+                    <span class="songName" >Song Name</span>
+                    <span class="songListPlay"><span class="timestamp">5:34 <i id="7" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+
+                <div class="songItem">
+                    <img src="../covers/1.jpg" alt="Cover_Image">
+                    <span class="songName" >Song Name</span>
+                    <span class="songListPlay"><span class="timestamp">5:34 <i id="8" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+
+                <div class="songItem">
+                    <img src="../covers/1.jpg" alt="Cover_Image">
+                    <span class="songName" >Song Name</span>
+                    <span class="songListPlay"><span class="timestamp">5:34 <i id="9" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                
             </div>
         </div>
 
@@ -38,16 +92,15 @@
     </div>
 
     <div class="bottom">
-      
-
-
-
-        <input type="range" name="range" id="myProgressBar" min="0" max="100" >
+      <input type="range" name="range" id="myProgressBar" min="0"  value = "0" max="100" >
         <div class="icons">
-            <i class="fa-solid fa-3x fa-backward-step"></i>
-            <i class="fa-solid fa-3x fa-circle-play"></i>
-            <!-- <button ><img src="../Dibya addition/icons/circle-play-solid.svg" alt="Play Button" class="play_button" ></button> -->
-            <i class="fa-solid fa-3x fa-forward-step"></i>
+            <i class="fa-solid fa-3x fa-backward-step" id="previous"></i>
+            <i class="fa-solid fa-3x fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-3x fa-forward-step" id="next"></i>
+        </div>
+
+        <div class="songInfo">
+            <img src="../playing.gif" width="42" alt="" id="gif"> <span id="masterSongName">Warriyo - Mortals [NCS Release]</span>
         </div>
     </div>
 
